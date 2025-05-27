@@ -11,7 +11,7 @@
 
 ![Kaneki Tribute](https://ghoul-requiem.vercel.app/)
 
-Para ver o projeto funcionando, abra o arquivo `index.html` localmente ou faça deploy em algum serviço (GitHub Pages, Vercel, Netlify).
+Em Breve
 
 ---
 
