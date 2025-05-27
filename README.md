@@ -9,9 +9,9 @@
 
 ## 🖼️ Preview
 
-![Kaneki Tribute](https://i.pinimg.com/originals/94/0f/ef/940fef1a79a7da869b37ccbb1d8843e2.png)
+![Kaneki Tribute](https://ghoul-requiem.vercel.app/)
 
-Para ver o projeto funcionando, abra o arquivo `index.html` localmente ou faça deploy em algum serviço (GitHub Pages, Vercel, Netlify).
+Em Breve
 
 ---
 
