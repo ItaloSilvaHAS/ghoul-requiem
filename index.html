@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tributo ao Kaneki</title>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@3/tsparticles.bundle.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-black text-white h-screen flex flex-col justify-center items-center overflow-hidden relative">
+    <div id="tsparticles" class="absolute inset-0 -z-10"></div>
+
+    <div id="conteudo" class="text-center max-w-4xl p-4">
+      <img
+        src="Assets/Kaneki1.png"
+        alt="Kaneki"
+        class="mx-auto mb-6 w-82 border-4 border-red-700 rounded-xl shadow-xl"
+      />
+      <div id="poema-inicial" class="text-red-500 text-2xl md:text-3xl font-semibold leading-relaxed space-y-2">
+        <p>Tragédia</p>
+        <p>Responda: o que sou?</p>
+        <p>Entre humano e ghoul</p>
+        <p>É só por ela</p>
+        <p>Que ninguém vou machucar</p>
+        <p>A fome eu vou suportar</p>
+        <p>Me fiz sangrar e meu olhar escureceu</p>
+        <p>Vi um monstro no espelho, e o monstro era eu</p>
+        <p>Transito entre dois mundos e em nenhum deles me encontro</p>
+        <p class="text-white">Não me faça eu me tornar um monstro</p>
+      </div>
+    </div>
+
+    <div id="dialogos" class="absolute inset-0 flex items-center justify-center text-center text-3xl font-bold hidden"></div>
+
+    <div id="final-branco" class="absolute inset-0 bg-white flex flex-col items-center justify-center text-center text-black text-xl font-bold hidden">
+      <img
+        src="Assets/Kaneki2.png"
+        alt="Kaneki"
+        class="mx-auto mb-6 w-72 border-4 border-black rounded-xl shadow-xl"
+      />
+      <div class="max-w-3xl space-y-2 text-2xl">
+        <p>Tragédia</p>
+        <p>Responda: o que sou?</p>
+        <p>Entre humano e ghoul</p>
+        <p>É só por ela</p>
+        <p>Que eu vou me libertar</p>
+        <p>Minha fome vou alimentar</p>
+        <p>Me fez sangrar e meu cabelo embranqueceu</p>
+        <p>Vi um monstro na sua frente, e o monstro era eu</p>
+        <p>Transito entre dois mundos e em nenhum deles me encontro</p>
+        <p class="text-red-700">Aceitando que eu sou um monstro</p>
+      </div>
+    </div>
+    <button id="resetar" class="botao-reset hidden">Recomeçar</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
